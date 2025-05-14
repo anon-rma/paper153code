@@ -62,4 +62,4 @@ Ensure all dependencies are properly installed as specified in respective script
 ## License
 
 This repository is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.  
-You are free to **share** and **adapt** the material for any purpose—even commercially—provided that you give appropriate credit.  
+You are free to **share** and **adapt** the material for any purpose provided that you give appropriate credit.  
