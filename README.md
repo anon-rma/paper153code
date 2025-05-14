@@ -59,3 +59,7 @@ python3 evaluation_analysis.py
 ```
 
 Ensure all dependencies are properly installed as specified in respective scripts for smooth operation.
+## License
+
+This repository is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.  
+You are free to **share** and **adapt** the material for any purpose—even commercially—provided that you give appropriate credit.  
