@@ -1,0 +1,350 @@
+{"query": "Actually, I'd like to see more ringtone choices.", "answer": {"plan": "ACTION_GET_RINGTONE", "arguments": {}}}
+{"query": "Could you let me pick another ringtone option?", "answer": {"plan": "ACTION_GET_RINGTONE", "arguments": {}}}
+{"query": "Show me more available ringtones, I want to try something different.", "answer": {"plan": "ACTION_GET_RINGTONE", "arguments": {}}}
+{"query": "I would like to browse through other ringtone alternatives.", "answer": {"plan": "ACTION_GET_RINGTONE", "arguments": {}}}
+{"query": "I want to explore additional ringtone options.", "answer": {"plan": "ACTION_GET_RINGTONE", "arguments": {}}}
+{"query": "I don't think rock_n_roll suits me. Can you open the ringtone picker for other options?", "answer": {"plan": "ACTION_GET_RINGTONE", "arguments": {}}}
+{"query": "I changed my ringtone, but could I check out some other ringtones available?", "answer": {"plan": "ACTION_GET_RINGTONE", "arguments": {}}}
+{"query": "Not entirely satisfied; let me see the list of other ringtones.", "answer": {"plan": "ACTION_GET_RINGTONE", "arguments": {}}}
+{"query": "I'm considering another one. Let me view alternative ringtone options.", "answer": {"plan": "ACTION_GET_RINGTONE", "arguments": {}}}
+{"query": "I want to try a different ringtone now. Open the ringtone selection.", "answer": {"plan": "ACTION_GET_RINGTONE", "arguments": {}}}
+{"query": "Please open content://documents/MeetingSummary.pdf immediately.", "answer": {"plan": "ACTION_OPEN_CONTENT", "arguments": {"uri": "content://documents/MeetingSummary.pdf"}}}
+{"query": "Please open content://documents/TravelPlan.txt for viewing.", "answer": {"plan": "ACTION_OPEN_CONTENT", "arguments": {"uri": "content://documents/TravelPlan.txt"}}}
+{"query": "I'd like to open content://documents/Resume.docx so I can review the resume.", "answer": {"plan": "ACTION_OPEN_CONTENT", "arguments": {"uri": "content://documents/Resume.docx"}}}
+{"query": "Open content://documents/Budget2024.xlsx at once.", "answer": {"plan": "ACTION_OPEN_CONTENT", "arguments": {"uri": "content://documents/Budget2024.xlsx"}}}
+{"query": "Display content://documents/ProfilePicture.jpg for me.", "answer": {"plan": "ACTION_OPEN_CONTENT", "arguments": {"uri": "content://documents/ProfilePicture.jpg"}}}
+{"query": "Show content://documents/README.md to me now.", "answer": {"plan": "ACTION_OPEN_CONTENT", "arguments": {"uri": "content://documents/README.md"}}}
+{"query": "Open content://documents/config.json so I can edit it.", "answer": {"plan": "ACTION_OPEN_CONTENT", "arguments": {"uri": "content://documents/config.json"}}}
+{"query": "Display content://documents/contacts.csv now.", "answer": {"plan": "ACTION_OPEN_CONTENT", "arguments": {"uri": "content://documents/contacts.csv"}}}
+{"query": "Open content://documents/PitchDeck.pptx so I can review my presentation.", "answer": {"plan": "ACTION_OPEN_CONTENT", "arguments": {"uri": "content://documents/PitchDeck.pptx"}}}
+{"query": "Please open content://documents/sitemap.xml to see the XML content.", "answer": {"plan": "ACTION_OPEN_CONTENT", "arguments": {"uri": "content://documents/sitemap.xml"}}}
+{"query": "Please pick the captured still image using MIME type image/*.", "answer": {"plan": "ACTION_GET_CONTENT", "arguments": {"mime_type": "image/*"}}}
+{"query": "Now, select the photo file you just captured with MIME type image/*.", "answer": {"plan": "ACTION_GET_CONTENT", "arguments": {"mime_type": "image/*"}}}
+{"query": "Retrieve the snapped picture by selecting it with MIME type image/*.", "answer": {"plan": "ACTION_GET_CONTENT", "arguments": {"mime_type": "image/*"}}}
+{"query": "Access the photo you captured from the built-in camera with MIME type image/*.", "answer": {"plan": "ACTION_GET_CONTENT", "arguments": {"mime_type": "image/*"}}}
+{"query": "Now, choose the captured photo from the camera using MIME type image/*.", "answer": {"plan": "ACTION_GET_CONTENT", "arguments": {"mime_type": "image/*"}}}
+{"query": "Select the default clicked image by specifying it with MIME type image/*.", "answer": {"plan": "ACTION_GET_CONTENT", "arguments": {"mime_type": "image/*"}}}
+{"query": "After capturing, please select the photograph you just took with MIME type image/*.", "answer": {"plan": "ACTION_GET_CONTENT", "arguments": {"mime_type": "image/*"}}}
+{"query": "Grab the still captured image file by choosing it with MIME type image/*.", "answer": {"plan": "ACTION_GET_CONTENT", "arguments": {"mime_type": "image/*"}}}
+{"query": "Now, pick the image you have taken by using the file selector with MIME type image/*.", "answer": {"plan": "ACTION_GET_CONTENT", "arguments": {"mime_type": "image/*"}}}
+{"query": "After snapping your photo, select the image from local storage with MIME type image/*.", "answer": {"plan": "ACTION_GET_CONTENT", "arguments": {"mime_type": "image/*"}}}
+{"query": "Since my PDF file wasn’t picked, create a new document with application/pdf and call it NewPDFDocument.pdf.", "answer": {"plan": "ACTION_CREATE_DOCUMENT", "arguments": {"mime_type": "application/pdf", "initial_name": "NewPDFDocument.pdf"}}}
+{"query": "I couldn't select my Word documents, so create a new document using application/msword and name it NewWordDocument.doc.", "answer": {"plan": "ACTION_CREATE_DOCUMENT", "arguments": {"mime_type": "application/msword", "initial_name": "NewWordDocument.doc"}}}
+{"query": "Since I didn't pick an image, create a new document with image/jpeg and name it NewImage.jpg.", "answer": {"plan": "ACTION_CREATE_DOCUMENT", "arguments": {"mime_type": "image/jpeg", "initial_name": "NewImage.jpg"}}}
+{"query": "As I wasn't able to select any files, create a new document with application/pdf and name it NewDocument.pdf.", "answer": {"plan": "ACTION_CREATE_DOCUMENT", "arguments": {"mime_type": "application/pdf", "initial_name": "NewDocument.pdf"}}}
+{"query": "Since the file picker didn't yield an Excel file, create a new document with application/vnd.ms-excel and name it NewSpreadsheet.xls.", "answer": {"plan": "ACTION_CREATE_DOCUMENT", "arguments": {"mime_type": "application/vnd.ms-excel", "initial_name": "NewSpreadsheet.xls"}}}
+{"query": "I couldn't select an MP3 file, so please create a new document with audio/mpeg and call it NewMusic.mp3.", "answer": {"plan": "ACTION_CREATE_DOCUMENT", "arguments": {"mime_type": "audio/mpeg", "initial_name": "NewMusic.mp3"}}}
+{"query": "Since I couldn't import the presentations, create a new document with application/vnd.ms-powerpoint and name it NewPresentation.ppt.", "answer": {"plan": "ACTION_CREATE_DOCUMENT", "arguments": {"mime_type": "application/vnd.ms-powerpoint", "initial_name": "NewPresentation.ppt"}}}
+{"query": "As I wasn't able to load the plain text file, please create a new document with text/plain and call it NewTextDocument.txt.", "answer": {"plan": "ACTION_CREATE_DOCUMENT", "arguments": {"mime_type": "text/plain", "initial_name": "NewTextDocument.txt"}}}
+{"query": "Since no image got selected, create a new document with image/png and name it NewImage.png.", "answer": {"plan": "ACTION_CREATE_DOCUMENT", "arguments": {"mime_type": "image/png", "initial_name": "NewImage.png"}}}
+{"query": "Since I didn't get a PDF file, please create a new document with application/pdf and name it NewPDFDocument.pdf.", "answer": {"plan": "ACTION_CREATE_DOCUMENT", "arguments": {"mime_type": "application/pdf", "initial_name": "NewPDFDocument.pdf"}}}
+{"query": "Update Emily Carter's email to 'emily.carter@example.com' in content://contacts/people/emily_carter.", "answer": {"plan": "ACTION_EDIT_CONTACT", "arguments": {"contact_uri": "content://contacts/people/emily_carter", "contact_info": {"email": "emily.carter@example.com"}}}}
+{"query": "Add phone '555-1234' to contact at content://contacts/people/alex_li.", "answer": {"plan": "ACTION_EDIT_CONTACT", "arguments": {"contact_uri": "content://contacts/people/alex_li", "contact_info": {"phone": "555-1234"}}}}
+{"query": "Include email 'sarah.nguyen@workmail.com' in contact at content://contacts/people/sarah_nguyen.", "answer": {"plan": "ACTION_EDIT_CONTACT", "arguments": {"contact_uri": "content://contacts/people/sarah_nguyen", "contact_info": {"email": "sarah.nguyen@workmail.com"}}}}
+{"query": "Add email 'michael.b@corp.com' to contact at content://contacts/people/michael_bryant.", "answer": {"plan": "ACTION_EDIT_CONTACT", "arguments": {"contact_uri": "content://contacts/people/michael_bryant", "contact_info": {"email": "michael.b@corp.com"}}}}
+{"query": "Update contact at content://contacts/people/priya_sethi with company 'Tech Solutions'.", "answer": {"plan": "ACTION_EDIT_CONTACT", "arguments": {"contact_uri": "content://contacts/people/priya_sethi", "contact_info": {"company": "Tech Solutions"}}}}
+{"query": "Add email 'mark.robinson@mail.com' to contact at content://contacts/people/mark_robinson.", "answer": {"plan": "ACTION_EDIT_CONTACT", "arguments": {"contact_uri": "content://contacts/people/mark_robinson", "contact_info": {"email": "mark.robinson@mail.com"}}}}
+{"query": "Edit contact at content://contacts/people/claire_jensen to include phone '123-4567'.", "answer": {"plan": "ACTION_EDIT_CONTACT", "arguments": {"contact_uri": "content://contacts/people/claire_jensen", "contact_info": {"phone": "123-4567"}}}}
+{"query": "Append email 'rafael.alvarez@example.com' to contact at content://contacts/people/rafael_alvarez.", "answer": {"plan": "ACTION_EDIT_CONTACT", "arguments": {"contact_uri": "content://contacts/people/rafael_alvarez", "contact_info": {"email": "rafael.alvarez@example.com"}}}}
+{"query": "Please add phone '777-8888' to contact at content://contacts/people/mei_ling.", "answer": {"plan": "ACTION_EDIT_CONTACT", "arguments": {"contact_uri": "content://contacts/people/mei_ling", "contact_info": {"phone": "777-8888"}}}}
+{"query": "Update contact at content://contacts/people/bob_sun to include company 'Sun Tech'.", "answer": {"plan": "ACTION_EDIT_CONTACT", "arguments": {"contact_uri": "content://contacts/people/bob_sun", "contact_info": {"company": "Sun Tech"}}}}
+{"query": "Take a photo now", "answer": {"plan": "ACTION_IMAGE_CAPTURE", "arguments": {}}}
+{"query": "Go ahead and snap a picture", "answer": {"plan": "ACTION_IMAGE_CAPTURE", "arguments": {}}}
+{"query": "Capture the photo using the camera interface", "answer": {"plan": "ACTION_IMAGE_CAPTURE", "arguments": {}}}
+{"query": "Take a still photo now", "answer": {"plan": "ACTION_IMAGE_CAPTURE", "arguments": {}}}
+{"query": "Capture an image and show me the photo's URI", "answer": {"plan": "ACTION_IMAGE_CAPTURE", "arguments": {}}}
+{"query": "Quickly capture a photo using the still image mode", "answer": {"plan": "ACTION_IMAGE_CAPTURE", "arguments": {}}}
+{"query": "Snap a photo using the active photo mode", "answer": {"plan": "ACTION_IMAGE_CAPTURE", "arguments": {}}}
+{"query": "Proceed to capture a still image", "answer": {"plan": "ACTION_IMAGE_CAPTURE", "arguments": {}}}
+{"query": "Now, click the shutter to take a photo", "answer": {"plan": "ACTION_IMAGE_CAPTURE", "arguments": {}}}
+{"query": "Capture a picture and show its saved URI", "answer": {"plan": "ACTION_IMAGE_CAPTURE", "arguments": {}}}
+{"query": "Save 555-0199 in my contacts", "answer": {"plan": "ACTION_INSERT_CONTACT", "arguments": {"contact_info": {"phone": "555-0199"}}}}
+{"query": "Store 202-555-0102 in my contacts", "answer": {"plan": "ACTION_INSERT_CONTACT", "arguments": {"contact_info": {"phone": "202-555-0102"}}}}
+{"query": "Save 1-800-867-5309 into my contacts", "answer": {"plan": "ACTION_INSERT_CONTACT", "arguments": {"contact_info": {"phone": "1-800-867-5309"}}}}
+{"query": "Add 3125550147 to my phone book", "answer": {"plan": "ACTION_INSERT_CONTACT", "arguments": {"contact_info": {"phone": "3125550147"}}}}
+{"query": "Store (415) 555-3201 into my contacts", "answer": {"plan": "ACTION_INSERT_CONTACT", "arguments": {"contact_info": {"phone": "(415) 555-3201"}}}}
+{"query": "Save 0800 555 657 as a new contact", "answer": {"plan": "ACTION_INSERT_CONTACT", "arguments": {"contact_info": {"phone": "0800 555 657"}}}}
+{"query": "Remember 44-20-7946-0958 in my contacts", "answer": {"plan": "ACTION_INSERT_CONTACT", "arguments": {"contact_info": {"phone": "44-20-7946-0958"}}}}
+{"query": "Add 88822334444 to my contacts", "answer": {"plan": "ACTION_INSERT_CONTACT", "arguments": {"contact_info": {"phone": "88822334444"}}}}
+{"query": "Save +1 (800) 555-1212 to my contacts", "answer": {"plan": "ACTION_INSERT_CONTACT", "arguments": {"contact_info": {"phone": "+1 (800) 555-1212"}}}}
+{"query": "Store 07911 123456 into my contact list", "answer": {"plan": "ACTION_INSERT_CONTACT", "arguments": {"contact_info": {"phone": "07911 123456"}}}}
+{"query": "Could you display all the alarms I have?", "answer": {"plan": "ACTION_SHOW_ALARMS", "arguments": {}}}
+{"query": "Show my alarms list.", "answer": {"plan": "ACTION_SHOW_ALARMS", "arguments": {}}}
+{"query": "Display my alarms set so far.", "answer": {"plan": "ACTION_SHOW_ALARMS", "arguments": {}}}
+{"query": "List out all alarms set for me.", "answer": {"plan": "ACTION_SHOW_ALARMS", "arguments": {}}}
+{"query": "Show all currently scheduled alarms.", "answer": {"plan": "ACTION_SHOW_ALARMS", "arguments": {}}}
+{"query": "Can you show me the alarms?", "answer": {"plan": "ACTION_SHOW_ALARMS", "arguments": {}}}
+{"query": "Display the list of alarms.", "answer": {"plan": "ACTION_SHOW_ALARMS", "arguments": {}}}
+{"query": "Please show all the alarms I have set.", "answer": {"plan": "ACTION_SHOW_ALARMS", "arguments": {}}}
+{"query": "List all my alarms now.", "answer": {"plan": "ACTION_SHOW_ALARMS", "arguments": {}}}
+{"query": "Display my alarms, please.", "answer": {"plan": "ACTION_SHOW_ALARMS", "arguments": {}}}
+{"query": "Start recording the video now.", "answer": {"plan": "ACTION_VIDEO_CAPTURE", "arguments": {}}}
+{"query": "Begin recording your video.", "answer": {"plan": "ACTION_VIDEO_CAPTURE", "arguments": {}}}
+{"query": "Commence video capture immediately.", "answer": {"plan": "ACTION_VIDEO_CAPTURE", "arguments": {}}}
+{"query": "Trigger video recording.", "answer": {"plan": "ACTION_VIDEO_CAPTURE", "arguments": {}}}
+{"query": "Activate video recording.", "answer": {"plan": "ACTION_VIDEO_CAPTURE", "arguments": {}}}
+{"query": "Record a video now.", "answer": {"plan": "ACTION_VIDEO_CAPTURE", "arguments": {}}}
+{"query": "Start capturing the video.", "answer": {"plan": "ACTION_VIDEO_CAPTURE", "arguments": {}}}
+{"query": "Begin video capture.", "answer": {"plan": "ACTION_VIDEO_CAPTURE", "arguments": {}}}
+{"query": "Launch the recording and capture the video.", "answer": {"plan": "ACTION_VIDEO_CAPTURE", "arguments": {}}}
+{"query": "Proceed to record the video immediately.", "answer": {"plan": "ACTION_VIDEO_CAPTURE", "arguments": {}}}
+{"query": "Set a 15-minute timer for exercise", "answer": {"plan": "ACTION_SET_TIMER", "arguments": {"duration": "15 minutes", "EXTRA_MESSAGE": "exercise"}}}
+{"query": "Set a 20-minute timer for cooking", "answer": {"plan": "ACTION_SET_TIMER", "arguments": {"duration": "20 minutes", "EXTRA_MESSAGE": "cooking"}}}
+{"query": "Start a 10-minute timer for a power nap", "answer": {"plan": "ACTION_SET_TIMER", "arguments": {"duration": "10 minutes", "EXTRA_MESSAGE": "power nap"}}}
+{"query": "Set a 25-minute timer for gym training", "answer": {"plan": "ACTION_SET_TIMER", "arguments": {"duration": "25 minutes", "EXTRA_MESSAGE": "gym training"}}}
+{"query": "Set a 12-minute timer for reading", "answer": {"plan": "ACTION_SET_TIMER", "arguments": {"duration": "12 minutes", "EXTRA_MESSAGE": "reading"}}}
+{"query": "Set an 18-minute timer for a study session", "answer": {"plan": "ACTION_SET_TIMER", "arguments": {"duration": "18 minutes", "EXTRA_MESSAGE": "study session"}}}
+{"query": "Set a 22-minute timer for guitar practice", "answer": {"plan": "ACTION_SET_TIMER", "arguments": {"duration": "22 minutes", "EXTRA_MESSAGE": "guitar practice"}}}
+{"query": "Set a 10-minute timer for a quick snack break", "answer": {"plan": "ACTION_SET_TIMER", "arguments": {"duration": "10 minutes", "EXTRA_MESSAGE": "quick snack break"}}}
+{"query": "Set a 17-minute timer for a brief walk", "answer": {"plan": "ACTION_SET_TIMER", "arguments": {"duration": "17 minutes", "EXTRA_MESSAGE": "brief walk"}}}
+{"query": "Set a 12-minute timer for a stretching session", "answer": {"plan": "ACTION_SET_TIMER", "arguments": {"duration": "12 minutes", "EXTRA_MESSAGE": "stretching session"}}}
+{"query": "Fetch content://contacts/people/2.'s information.", "answer": {"plan": "get_contact_info_from_uri", "arguments": {"data_uri": "content://contacts/people/2"}}}
+{"query": "Get content://contacts/phone/14.", "answer": {"plan": "get_contact_info_from_uri", "arguments": {"data_uri": "content://contacts/phone/14"}}}
+{"query": "Retrieve content://contacts/email/5.", "answer": {"plan": "get_contact_info_from_uri", "arguments": {"data_uri": "content://contacts/email/5"}}}
+{"query": "Fetch the contact details from content://contacts/people/2.", "answer": {"plan": "get_contact_info_from_uri", "arguments": {"data_uri": "content://contacts/people/2"}}}
+{"query": "Retrieve content://contacts/address/7.", "answer": {"plan": "get_contact_info_from_uri", "arguments": {"data_uri": "content://contacts/address/7"}}}
+{"query": "Get content://contacts/email/5.", "answer": {"plan": "get_contact_info_from_uri", "arguments": {"data_uri": "content://contacts/email/5"}}}
+{"query": "Fetch content://contacts/phone/14.", "answer": {"plan": "get_contact_info_from_uri", "arguments": {"data_uri": "content://contacts/phone/14"}}}
+{"query": "Retrieve info for content://contacts/people/2.", "answer": {"plan": "get_contact_info_from_uri", "arguments": {"data_uri": "content://contacts/people/2"}}}
+{"query": "Get content://contacts/address/7.", "answer": {"plan": "get_contact_info_from_uri", "arguments": {"data_uri": "content://contacts/address/7"}}}
+{"query": "Fetch content://contacts/people/2's details.", "answer": {"plan": "get_contact_info_from_uri", "arguments": {"data_uri": "content://contacts/people/2"}}}
+{"query": "Set up a calendar event to visit Buckingham Palace, London SW1A 1AA, UK next Saturday from 2pm to 4pm with title 'Visit Buckingham Palace' and description 'Tour of Buckingham Palace'.", "answer": {"plan": "ACTION_INSERT_EVENT", "arguments": {"TITLE": "Visit Buckingham Palace", "DESCRIPTION": "Tour of Buckingham Palace", "EVENT_LOCATION": "Buckingham Palace, London SW1A 1AA, UK", "BEGIN_TIME": 1700916000000, "END_TIME": 1700923200000}}}
+{"query": "Create a calendar reminder to explore The Taj Mahal in Agra, India next Sunday morning from 10am to 11am with title 'Explore Taj Mahal' and description 'Visit the Taj Mahal in Agra'.", "answer": {"plan": "ACTION_INSERT_EVENT", "arguments": {"TITLE": "Explore Taj Mahal", "DESCRIPTION": "Visit the Taj Mahal in Agra", "EVENT_LOCATION": "The Taj Mahal, Agra, India", "BEGIN_TIME": 1701002400000, "END_TIME": 1701006000000}}}
+{"query": "Schedule an event to tour The Colosseum in the heart of Rome, Italy this coming Wednesday from 3pm to 5pm, titled 'Colosseum Tour' with description 'Exploring ancient Rome at the Colosseum'.", "answer": {"plan": "ACTION_INSERT_EVENT", "arguments": {"TITLE": "Colosseum Tour", "DESCRIPTION": "Exploring ancient Rome at the Colosseum", "EVENT_LOCATION": "The Colosseum, Rome, Italy", "BEGIN_TIME": 1700667600000, "END_TIME": 1700674800000}}}
+{"query": "Add a calendar event to visit 1 Infinite Loop, Cupertino, CA on Monday afternoon from 1pm to 2pm with title 'Visit 1 Infinite Loop' and description 'Explore the campus at 1 Infinite Loop'.", "answer": {"plan": "ACTION_INSERT_EVENT", "arguments": {"TITLE": "Visit 1 Infinite Loop", "DESCRIPTION": "Explore the campus at 1 Infinite Loop", "EVENT_LOCATION": "1 Infinite Loop, Cupertino, CA", "BEGIN_TIME": 1700487600000, "END_TIME": 1700491200000}}}
+{"query": "Set up an event to explore Machu Picchu, the ancient Incan citadel, in the Andes of Peru next Tuesday morning from 9am to 11am with title 'Machu Picchu Expedition' and description 'Adventure to the ancient Incan citadel'.", "answer": {"plan": "ACTION_INSERT_EVENT", "arguments": {"TITLE": "Machu Picchu Expedition", "DESCRIPTION": "Adventure to the ancient Incan citadel", "EVENT_LOCATION": "Machu Picchu, Andes, Peru", "BEGIN_TIME": 1701085200000, "END_TIME": 1701092400000}}}
+{"query": "Schedule a visit event at Champ de Mars, Paris, France for next Friday evening from 6pm to 8pm with title 'Eiffel Tower Visit' and description 'Evening tour of the iconic Eiffel Tower'.", "answer": {"plan": "ACTION_INSERT_EVENT", "arguments": {"TITLE": "Eiffel Tower Visit", "DESCRIPTION": "Evening tour of the iconic Eiffel Tower", "EVENT_LOCATION": "Champ de Mars, Paris, France", "BEGIN_TIME": 1701276000000, "END_TIME": 1701283200000}}}
+{"query": "Create a calendar event to visit 350 Fifth Avenue, New York, NY this coming Thursday from 11am to 12pm with title '350 Fifth Ave Visit' and description 'Tour the building at 350 Fifth Avenue'.", "answer": {"plan": "ACTION_INSERT_EVENT", "arguments": {"TITLE": "350 Fifth Ave Visit", "DESCRIPTION": "Tour the building at 350 Fifth Avenue", "EVENT_LOCATION": "350 Fifth Avenue, New York, NY", "BEGIN_TIME": 1700758800000, "END_TIME": 1700762400000}}}
+{"query": "Set a calendar reminder to tour Sydney Opera House on the coming weekend from 4pm to 6pm with title 'Opera House Tour' and description 'Visit the Sydney Opera House'.", "answer": {"plan": "ACTION_INSERT_EVENT", "arguments": {"TITLE": "Opera House Tour", "DESCRIPTION": "Visit the Sydney Opera House", "EVENT_LOCATION": "Sydney Opera House", "BEGIN_TIME": 1700944800000, "END_TIME": 1700952000000}}}
+{"query": "Add an event to visit Times Square, the bustling heart of New York on next Monday afternoon from 1pm to 2pm with title 'Times Square Visit' and description 'Experience the vibe of Times Square'.", "answer": {"plan": "ACTION_INSERT_EVENT", "arguments": {"TITLE": "Times Square Visit", "DESCRIPTION": "Experience the vibe of Times Square", "EVENT_LOCATION": "Times Square, New York", "BEGIN_TIME": 1701080400000, "END_TIME": 1701084000000}}}
+{"query": "Schedule a calendar event to see Burj Khalifa in Dubai next Wednesday from 5pm to 7pm with title 'Burj Khalifa Visit' and description 'Explore Burj Khalifa in Dubai'.", "answer": {"plan": "ACTION_INSERT_EVENT", "arguments": {"TITLE": "Burj Khalifa Visit", "DESCRIPTION": "Explore Burj Khalifa in Dubai", "EVENT_LOCATION": "Burj Khalifa, Dubai", "BEGIN_TIME": 1701174000000, "END_TIME": 1701181200000}}}
+{"query": "Call 555-1234", "answer": {"plan": "dial", "arguments": {"phone_number": "555-1234"}}}
+{"query": "Dial 987-6543", "answer": {"plan": "dial", "arguments": {"phone_number": "987-6543"}}}
+{"query": "Call 222-3456", "answer": {"plan": "dial", "arguments": {"phone_number": "222-3456"}}}
+{"query": "Call 444-8888", "answer": {"plan": "dial", "arguments": {"phone_number": "444-8888"}}}
+{"query": "Call 638-2391", "answer": {"plan": "dial", "arguments": {"phone_number": "638-2391"}}}
+{"query": "Call 800-445-2112", "answer": {"plan": "dial", "arguments": {"phone_number": "800-445-2112"}}}
+{"query": "Call 555-2210", "answer": {"plan": "dial", "arguments": {"phone_number": "555-2210"}}}
+{"query": "Call 123-0009", "answer": {"plan": "dial", "arguments": {"phone_number": "123-0009"}}}
+{"query": "Dial 676-8888", "answer": {"plan": "dial", "arguments": {"phone_number": "676-8888"}}}
+{"query": "Call 987-7612", "answer": {"plan": "dial", "arguments": {"phone_number": "987-7612"}}}
+{"query": "Set an alarm for 6:45 with Selected ringtone: content://media/ringtone01 and label it 'Morning Start'.", "answer": {"plan": "ACTION_SET_ALARM", "arguments": {"EXTRA_HOUR": 6, "EXTRA_MINUTES": 45, "EXTRA_MESSAGE": "Morning Start", "EXTRA_RINGTONE": "content://media/ringtone01"}}}
+{"query": "Create an alarm at 7:15 using Ringtone chosen: content://media/tune.mp3, with the message 'Rise and Shine'.", "answer": {"plan": "ACTION_SET_ALARM", "arguments": {"EXTRA_HOUR": 7, "EXTRA_MINUTES": 15, "EXTRA_MESSAGE": "Rise and Shine", "EXTRA_RINGTONE": "content://media/tune.mp3"}}}
+{"query": "Schedule an alarm for 8:00 and use You've picked a ringtone: content://media/ringtone01 with the note 'Meeting Reminder'.", "answer": {"plan": "ACTION_SET_ALARM", "arguments": {"EXTRA_HOUR": 8, "EXTRA_MINUTES": 0, "EXTRA_MESSAGE": "Meeting Reminder", "EXTRA_RINGTONE": "content://media/ringtone01"}}}
+{"query": "Alarm at 6:30 please, using Your notification sound is set: content://media/tune.mp3 as the ringtone, marked 'Gym Time'.", "answer": {"plan": "ACTION_SET_ALARM", "arguments": {"EXTRA_HOUR": 6, "EXTRA_MINUTES": 30, "EXTRA_MESSAGE": "Gym Time", "EXTRA_RINGTONE": "content://media/tune.mp3"}}}
+{"query": "Set an alarm for 5:50 AM with New ringtone selected: content://media/ringtone01, and tag it 'Early Bird'.", "answer": {"plan": "ACTION_SET_ALARM", "arguments": {"EXTRA_HOUR": 5, "EXTRA_MINUTES": 50, "EXTRA_MESSAGE": "Early Bird", "EXTRA_RINGTONE": "content://media/ringtone01"}}}
+{"query": "Schedule an alarm at 9:00 using Alert tone set to: content://media/tune.mp3 and include 'Office Reminder' as the label.", "answer": {"plan": "ACTION_SET_ALARM", "arguments": {"EXTRA_HOUR": 9, "EXTRA_MINUTES": 0, "EXTRA_MESSAGE": "Office Reminder", "EXTRA_RINGTONE": "content://media/tune.mp3"}}}
+{"query": "Please set an alarm for 7:05 using Swapped ringtone: content://media/ringtone01 with the message 'Meeting'.", "answer": {"plan": "ACTION_SET_ALARM", "arguments": {"EXTRA_HOUR": 7, "EXTRA_MINUTES": 5, "EXTRA_MESSAGE": "Meeting", "EXTRA_RINGTONE": "content://media/ringtone01"}}}
+{"query": "Make an alarm for 8:30 that uses Special alarm tone selected: content://media/tune.mp3, and mark it 'Workout Time'.", "answer": {"plan": "ACTION_SET_ALARM", "arguments": {"EXTRA_HOUR": 8, "EXTRA_MINUTES": 30, "EXTRA_MESSAGE": "Workout Time", "EXTRA_RINGTONE": "content://media/tune.mp3"}}}
+{"query": "Set an alarm at 6:00 and apply Ringtone from your library chosen: content://media/ringtone01, with the note 'Daily Routine'.", "answer": {"plan": "ACTION_SET_ALARM", "arguments": {"EXTRA_HOUR": 6, "EXTRA_MINUTES": 0, "EXTRA_MESSAGE": "Daily Routine", "EXTRA_RINGTONE": "content://media/ringtone01"}}}
+{"query": "Please schedule an alarm at 7:20 with Your favorite ringtone is set to: content://media/tune.mp3 and label it 'Work Start'.", "answer": {"plan": "ACTION_SET_ALARM", "arguments": {"EXTRA_HOUR": 7, "EXTRA_MINUTES": 20, "EXTRA_MESSAGE": "Work Start", "EXTRA_RINGTONE": "content://media/tune.mp3"}}}
+{"query": "Where is 742 Evergreen Terrace on the map?", "answer": {"plan": "search_location", "arguments": {"query": "742 Evergreen Terrace"}}}
+{"query": "Where can I find 99 Ocean Ave on a map?", "answer": {"plan": "search_location", "arguments": {"query": "99 Ocean Ave"}}}
+{"query": "Where is 123 Main St on the map?", "answer": {"plan": "search_location", "arguments": {"query": "123 Main St"}}}
+{"query": "Where is 800 River Road on the map?", "answer": {"plan": "search_location", "arguments": {"query": "800 River Road"}}}
+{"query": "Where is 123 Palm Street on the map?", "answer": {"plan": "search_location", "arguments": {"query": "123 Palm Street"}}}
+{"query": "Where is 18 Lotus Lane on the map?", "answer": {"plan": "search_location", "arguments": {"query": "18 Lotus Lane"}}}
+{"query": "Could you display 221B Baker St on the map?", "answer": {"plan": "search_location", "arguments": {"query": "221B Baker St"}}}
+{"query": "Can you locate 87 Pine Crescent on a map?", "answer": {"plan": "search_location", "arguments": {"query": "87 Pine Crescent"}}}
+{"query": "Where is 173 Birch Blvd on the map?", "answer": {"plan": "search_location", "arguments": {"query": "173 Birch Blvd"}}}
+{"query": "Where is 888 Plum Drive on the map?", "answer": {"plan": "search_location", "arguments": {"query": "888 Plum Drive"}}}
+{"query": "Search for the 'cat memes' result from 'Google (search 'cat memes')' again.", "answer": {"plan": "web_search", "arguments": {"query": "cat memes"}}}
+{"query": "Run a web search for 'cat memes' to find more related content.", "answer": {"plan": "web_search", "arguments": {"query": "cat memes"}}}
+{"query": "Initiate a web search using the 'cat memes' query from 'Google (search 'cat memes')' history.", "answer": {"plan": "web_search", "arguments": {"query": "cat memes"}}}
+{"query": "Explore more about 'cat memes' by doing a web search.", "answer": {"plan": "web_search", "arguments": {"query": "cat memes"}}}
+{"query": "Search for 'cat memes' again.", "answer": {"plan": "web_search", "arguments": {"query": "cat memes"}}}
+{"query": "Re-run the search for the query from 'Google (search 'cat memes')' first history entry.", "answer": {"plan": "web_search", "arguments": {"query": "cat memes"}}}
+{"query": "Conduct a web search for 'cat memes' using the details from 'Google (search 'cat memes')' from the first history item.", "answer": {"plan": "web_search", "arguments": {"query": "cat memes"}}}
+{"query": "Perform a web search using the query 'cat memes' from 'Google (search 'cat memes')' first browser session.", "answer": {"plan": "web_search", "arguments": {"query": "cat memes"}}}
+{"query": "Search for 'cat memes' based on 'Google (search 'cat memes')' in my history.", "answer": {"plan": "web_search", "arguments": {"query": "cat memes"}}}
+{"query": "Re-run a web search for 'cat memes' as listed in 'Google (search 'cat memes')' top history entry.", "answer": {"plan": "web_search", "arguments": {"query": "cat memes"}}}
+{"query": "Show me content://contacts/people/robert contact card", "answer": {"plan": "ACTION_VIEW_CONTACT", "arguments": {"contact_uri": "content://contacts/people/robert"}}}
+{"query": "Show me content://contacts/people/45fgh contact details", "answer": {"plan": "ACTION_VIEW_CONTACT", "arguments": {"contact_uri": "content://contacts/people/45fgh"}}}
+{"query": "Bring up content://contacts/people/a111b222 contact's details", "answer": {"plan": "ACTION_VIEW_CONTACT", "arguments": {"contact_uri": "content://contacts/people/a111b222"}}}
+{"query": "Can you display content://contacts/people/amy_smith updated details?", "answer": {"plan": "ACTION_VIEW_CONTACT", "arguments": {"contact_uri": "content://contacts/people/amy_smith"}}}
+{"query": "Show me content://contacts/people/xyz789 contact information", "answer": {"plan": "ACTION_VIEW_CONTACT", "arguments": {"contact_uri": "content://contacts/people/xyz789"}}}
+{"query": "Display content://contacts/people/515b info to check changes", "answer": {"plan": "ACTION_VIEW_CONTACT", "arguments": {"contact_uri": "content://contacts/people/515b"}}}
+{"query": "Let me view content://contacts/people/cjd9234 contact card to confirm the update", "answer": {"plan": "ACTION_VIEW_CONTACT", "arguments": {"contact_uri": "content://contacts/people/cjd9234"}}}
+{"query": "Show me content://contacts/people/peter_parker contact details now", "answer": {"plan": "ACTION_VIEW_CONTACT", "arguments": {"contact_uri": "content://contacts/people/peter_parker"}}}
+{"query": "Bring up content://contacts/people/284hgjk complete profile", "answer": {"plan": "ACTION_VIEW_CONTACT", "arguments": {"contact_uri": "content://contacts/people/284hgjk"}}}
+{"query": "Can you display content://contacts/people/88abcd contact information?", "answer": {"plan": "ACTION_VIEW_CONTACT", "arguments": {"contact_uri": "content://contacts/people/88abcd"}}}
+{"query": "Email content://documents/MeetingSummary.pdf to alice@example.com with the subject 'Meeting Summary' and include a brief recap in the body.", "answer": {"plan": "send_email", "arguments": {"to": "alice@example.com", "subject": "Meeting Summary", "attachments": ["content://documents/MeetingSummary.pdf"]}}}
+{"query": "Send an email with the note content://documents/TravelPlan.txt attached to bob@example.com with the body 'Please review my travel itinerary'.", "answer": {"plan": "send_email", "arguments": {"to": "bob@example.com", "body": "Please review my travel itinerary", "attachments": ["content://documents/TravelPlan.txt"]}}}
+{"query": "Could you email the document content://documents/Resume.docx to carol@example.com stating 'My updated resume' in the subject?", "answer": {"plan": "send_email", "arguments": {"to": "carol@example.com", "subject": "My updated resume", "attachments": ["content://documents/Resume.docx"]}}}
+{"query": "Please send the spreadsheet content://documents/Budget2024.xlsx to dave@example.com with a friendly message in the email body.", "answer": {"plan": "send_email", "arguments": {"to": "dave@example.com", "body": "a friendly message", "attachments": ["content://documents/Budget2024.xlsx"]}}}
+{"query": "Email the image content://documents/ProfilePicture.jpg to eve@example.com, adding the subject 'Profile Picture'.", "answer": {"plan": "send_email", "arguments": {"to": "eve@example.com", "subject": "Profile Picture", "attachments": ["content://documents/ProfilePicture.jpg"]}}}
+{"query": "Could you send the markdown note content://documents/README.md to frank@example.com with the email body 'Please review the readme'?", "answer": {"plan": "send_email", "arguments": {"to": "frank@example.com", "body": "Please review the readme", "attachments": ["content://documents/README.md"]}}}
+{"query": "Email the newly created JSON file content://documents/config.json to grace@example.com with the subject 'Config File' for review.", "answer": {"plan": "send_email", "arguments": {"to": "grace@example.com", "subject": "Config File", "attachments": ["content://documents/config.json"]}}}
+{"query": "Please send the CSV file content://documents/contacts.csv to hank@example.com, including a note 'Here's my address book' in the email body.", "answer": {"plan": "send_email", "arguments": {"to": "hank@example.com", "body": "Here's my address book", "attachments": ["content://documents/contacts.csv"]}}}
+{"query": "Can you email the presentation content://documents/PitchDeck.pptx to irene@example.com with the subject 'Pitch Deck' and a brief explanation in the body?", "answer": {"plan": "send_email", "arguments": {"to": "irene@example.com", "subject": "Pitch Deck", "attachments": ["content://documents/PitchDeck.pptx"]}}}
+{"query": "Send an email with the XML file content://documents/sitemap.xml attached to jack@example.com, with a message 'Website sitemap attached' in the body.", "answer": {"plan": "send_email", "arguments": {"to": "jack@example.com", "body": "Website sitemap attached", "attachments": ["content://documents/sitemap.xml"]}}}
+{"query": "Text content://documents/MeetingSummary.pdf to Alex saying 'Here is the meeting summary for review.'", "answer": {"plan": "send_message", "arguments": {"to": "Alex", "message": "Here is the meeting summary for review.", "attachments": ["content://documents/MeetingSummary.pdf"]}}}
+{"query": "Send content://documents/TravelPlan.txt to Maria with message 'Take a look at my travel plan.'", "answer": {"plan": "send_message", "arguments": {"to": "Maria", "message": "Take a look at my travel plan.", "attachments": ["content://documents/TravelPlan.txt"]}}}
+{"query": "Forward content://documents/Resume.docx to HR saying 'Attached is my latest resume.'", "answer": {"plan": "send_message", "arguments": {"to": "HR", "message": "Attached is my latest resume.", "attachments": ["content://documents/Resume.docx"]}}}
+{"query": "Send content://documents/Budget2024.xlsx over to my accountant with message 'Please review the budget for 2024.'", "answer": {"plan": "send_message", "arguments": {"to": "my accountant", "message": "Please review the budget for 2024.", "attachments": ["content://documents/Budget2024.xlsx"]}}}
+{"query": "Text content://documents/ProfilePicture.jpg to my friend Lisa saying 'Check out my new profile picture!'", "answer": {"plan": "send_message", "arguments": {"to": "my friend Lisa", "message": "Check out my new profile picture!", "attachments": ["content://documents/ProfilePicture.jpg"]}}}
+{"query": "Send content://documents/README.md to my colleague Sam with message 'Refer to this README for details.'", "answer": {"plan": "send_message", "arguments": {"to": "my colleague Sam", "message": "Refer to this README for details.", "attachments": ["content://documents/README.md"]}}}
+{"query": "Text content://documents/config.json to IT support with message 'New configuration file created.'", "answer": {"plan": "send_message", "arguments": {"to": "IT support", "message": "New configuration file created.", "attachments": ["content://documents/config.json"]}}}
+{"query": "Send content://documents/contacts.csv to my assistant Jamie saying 'Here's the updated contacts list.'", "answer": {"plan": "send_message", "arguments": {"to": "my assistant Jamie", "message": "Here's the updated contacts list.", "attachments": ["content://documents/contacts.csv"]}}}
+{"query": "Text content://documents/PitchDeck.pptx to the team via group chat with message 'Please review the pitch deck.'", "answer": {"plan": "send_message", "arguments": {"to": "the team via group chat", "message": "Please review the pitch deck.", "attachments": ["content://documents/PitchDeck.pptx"]}}}
+{"query": "Forward content://documents/sitemap.xml to our web admin with message 'Check the new sitemap.'", "answer": {"plan": "send_message", "arguments": {"to": "our web admin", "message": "Check the new sitemap.", "attachments": ["content://documents/sitemap.xml"]}}}
+{"query": "Play Moonlight Sonata", "answer": {"plan": "play_music", "arguments": {"track": "Moonlight Sonata"}}}
+{"query": "Play Blinding Lights", "answer": {"plan": "play_music", "arguments": {"track": "Blinding Lights"}}}
+{"query": "Play Can't Hold Us", "answer": {"plan": "play_music", "arguments": {"track": "Can't Hold Us"}}}
+{"query": "Play Bad Guy", "answer": {"plan": "play_music", "arguments": {"track": "Bad Guy"}}}
+{"query": "Cue up So What", "answer": {"plan": "play_music", "arguments": {"track": "So What"}}}
+{"query": "Play Stairway to Heaven", "answer": {"plan": "play_music", "arguments": {"track": "Stairway to Heaven"}}}
+{"query": "Hit play on Get Lucky", "answer": {"plan": "play_music", "arguments": {"track": "Get Lucky"}}}
+{"query": "Play Clair de Lune", "answer": {"plan": "play_music", "arguments": {"track": "Clair de Lune"}}}
+{"query": "Play Beautiful Day", "answer": {"plan": "play_music", "arguments": {"track": "Beautiful Day"}}}
+{"query": "Play Breathe", "answer": {"plan": "play_music", "arguments": {"track": "Breathe"}}}
+{"query": "Launch the YouTube app.", "answer": {"plan": "launch_application", "arguments": {"application_name": "YouTube"}}}
+{"query": "Open the Maps app.", "answer": {"plan": "launch_application", "arguments": {"application_name": "Maps"}}}
+{"query": "Switch to the Messages app.", "answer": {"plan": "launch_application", "arguments": {"application_name": "Messages"}}}
+{"query": "Open the Chrome app.", "answer": {"plan": "launch_application", "arguments": {"application_name": "Chrome"}}}
+{"query": "Launch the Maps app.", "answer": {"plan": "launch_application", "arguments": {"application_name": "Maps"}}}
+{"query": "Start the Messages app.", "answer": {"plan": "launch_application", "arguments": {"application_name": "Messages"}}}
+{"query": "Launch the Messages app.", "answer": {"plan": "launch_application", "arguments": {"application_name": "Messages"}}}
+{"query": "Switch to the Chrome app.", "answer": {"plan": "launch_application", "arguments": {"application_name": "Chrome"}}}
+{"query": "Could you open the Maps app?", "answer": {"plan": "launch_application", "arguments": {"application_name": "Maps"}}}
+{"query": "Please open the YouTube app.", "answer": {"plan": "launch_application", "arguments": {"application_name": "YouTube"}}}
+{"query": "Play content://videos/travel_july.mp4", "answer": {"plan": "play_video", "arguments": {"video_uri": "content://videos/travel_july.mp4"}}}
+{"query": "Play content://media/reunion.mkv", "answer": {"plan": "play_video", "arguments": {"video_uri": "content://media/reunion.mkv"}}}
+{"query": "Play content://videos/lecture_2023.mp4", "answer": {"plan": "play_video", "arguments": {"video_uri": "content://videos/lecture_2023.mp4"}}}
+{"query": "Play content://videos/wedding_highlights.mp4", "answer": {"plan": "play_video", "arguments": {"video_uri": "content://videos/wedding_highlights.mp4"}}}
+{"query": "Play content://media/party.mov", "answer": {"plan": "play_video", "arguments": {"video_uri": "content://media/party.mov"}}}
+{"query": "Play content://videos/tutorial_part2.mp4", "answer": {"plan": "play_video", "arguments": {"video_uri": "content://videos/tutorial_part2.mp4"}}}
+{"query": "Play content://videos/birthday_april.mp4", "answer": {"plan": "play_video", "arguments": {"video_uri": "content://videos/birthday_april.mp4"}}}
+{"query": "Play content://media/clip_005.avi", "answer": {"plan": "play_video", "arguments": {"video_uri": "content://media/clip_005.avi"}}}
+{"query": "Play content://media/family_fun.mp4", "answer": {"plan": "play_video", "arguments": {"video_uri": "content://media/family_fun.mp4"}}}
+{"query": "Play content://videos/presentation_draft.mp4", "answer": {"plan": "play_video", "arguments": {"video_uri": "content://videos/presentation_draft.mp4"}}}
+{"query": "Edit content://documents/MeetingSummary.pdf to add a summary of the meeting discussions.", "answer": {"plan": "ACTION_EDIT_DOCUMENT", "arguments": {"document_uri": "content://documents/MeetingSummary.pdf", "content": "Summary of the meeting discussions."}}}
+{"query": "Could you update content://documents/TravelPlan.txt with my itinerary details?", "answer": {"plan": "ACTION_EDIT_DOCUMENT", "arguments": {"document_uri": "content://documents/TravelPlan.txt", "content": "My itinerary details."}}}
+{"query": "Edit content://documents/Resume.docx to incorporate my updated professional experience.", "answer": {"plan": "ACTION_EDIT_DOCUMENT", "arguments": {"document_uri": "content://documents/Resume.docx", "content": "Updated professional experience."}}}
+{"query": "Modify content://documents/Budget2024.xlsx to include the revised budget figures.", "answer": {"plan": "ACTION_EDIT_DOCUMENT", "arguments": {"document_uri": "content://documents/Budget2024.xlsx", "content": "Revised budget figures."}}}
+{"query": "Edit content://documents/ProfilePicture.jpg to add a watermark overlay for a professional look.", "answer": {"plan": "ACTION_EDIT_DOCUMENT", "arguments": {"document_uri": "content://documents/ProfilePicture.jpg", "content": "Add a watermark overlay for a professional look."}}}
+{"query": "Open content://documents/README.md and append installation instructions at the bottom.", "answer": {"plan": "ACTION_EDIT_DOCUMENT", "arguments": {"document_uri": "content://documents/README.md", "content": "Append installation instructions at the bottom."}}}
+{"query": "Edit content://documents/config.json to include system configuration settings.", "answer": {"plan": "ACTION_EDIT_DOCUMENT", "arguments": {"document_uri": "content://documents/config.json", "content": "System configuration settings."}}}
+{"query": "Modify content://documents/contacts.csv to add my contact details including names and numbers.", "answer": {"plan": "ACTION_EDIT_DOCUMENT", "arguments": {"document_uri": "content://documents/contacts.csv", "content": "My contact details including names and numbers."}}}
+{"query": "Edit content://documents/PitchDeck.pptx to include slides for the new product launch.", "answer": {"plan": "ACTION_EDIT_DOCUMENT", "arguments": {"document_uri": "content://documents/PitchDeck.pptx", "content": "Slides for the new product launch."}}}
+{"query": "Open content://documents/sitemap.xml and insert the updated site hierarchy.", "answer": {"plan": "ACTION_EDIT_DOCUMENT", "arguments": {"document_uri": "content://documents/sitemap.xml", "content": "Insert the updated site hierarchy."}}}
+{"query": "Set content://media/ringtone01 as my alarm ringtone", "answer": {"plan": "N/A", "arguments": {"reason": "The request specifies setting the alarm ringtone, but the tool only supports setting the default incoming call ringtone."}}}
+{"query": "Use content://media/tune.mp3 as my custom ringtone", "answer": {"plan": "ACTION_SET_RINGTONE", "arguments": {"ringtone_uri": "content://media/tune.mp3"}}}
+{"query": "Apply content://media/ringtone01 as my ringtone immediately", "answer": {"plan": "ACTION_SET_RINGTONE", "arguments": {"ringtone_uri": "content://media/ringtone01"}}}
+{"query": "Set content://media/tune.mp3 as my notification ringtone", "answer": {"plan": "N/A", "arguments": {"reason": "The request specifies setting the notification ringtone, but the tool only supports setting the default incoming call ringtone."}}}
+{"query": "Make content://media/ringtone01 my new ringtone", "answer": {"plan": "ACTION_SET_RINGTONE", "arguments": {"ringtone_uri": "content://media/ringtone01"}}}
+{"query": "Set content://media/tune.mp3 as my ringtone", "answer": {"plan": "ACTION_SET_RINGTONE", "arguments": {"ringtone_uri": "content://media/tune.mp3"}}}
+{"query": "Apply content://media/ringtone01 as my new ringtone", "answer": {"plan": "ACTION_SET_RINGTONE", "arguments": {"ringtone_uri": "content://media/ringtone01"}}}
+{"query": "Use content://media/tune.mp3 as my special alarm tone", "answer": {"plan": "N/A", "arguments": {"reason": "The request specifies setting the alarm tone, but the tool only supports setting the default incoming call ringtone."}}}
+{"query": "Set content://media/ringtone01 as my default ringtone", "answer": {"plan": "ACTION_SET_RINGTONE", "arguments": {"ringtone_uri": "content://media/ringtone01"}}}
+{"query": "Make content://media/tune.mp3 my ringtone", "answer": {"plan": "ACTION_SET_RINGTONE", "arguments": {"ringtone_uri": "content://media/tune.mp3"}}}
+{"query": "Trim content://temp/image.png from 0 ms to 60000 ms.", "answer": {"plan": "N/A", "arguments": {"reason": "The provided URI (content://temp/image.png) does not indicate a video file, which is required for video editing."}}}
+{"query": "Trim content://temp/audio1.mp3 from 0 ms to 30000 ms.", "answer": {"plan": "N/A", "arguments": {"reason": "The provided URI (content://temp/audio1.mp3) does not indicate a video file, which is required for video editing."}}}
+{"query": "Mute the audio of content://temp/document.pdf.", "answer": {"plan": "N/A", "arguments": {"reason": "The provided URI (content://temp/document.pdf) does not indicate a video file, which is required for video editing."}}}
+{"query": "Trim content://temp/video1.mp4 from 5000 ms to 45000 ms.", "answer": {"plan": "ACTION_EDIT_VIDEO", "arguments": {"video_uri": "content://temp/video1.mp4", "edit_options": {"start_time": 5000, "end_time": 45000}}}}
+{"query": "Mute content://temp/file_generic.", "answer": {"plan": "N/A", "arguments": {"reason": "The provided URI (content://temp/file_generic) does not indicate a video file, which is required for video editing."}}}
+{"query": "Trim content://temp/image.jpeg from 10000 ms to 40000 ms.", "answer": {"plan": "N/A", "arguments": {"reason": "The provided URI (content://temp/image.jpeg) does not indicate a video file, which is required for video editing."}}}
+{"query": "Trim content://temp/doc1.doc from 0 ms to 15000 ms.", "answer": {"plan": "N/A", "arguments": {"reason": "The provided URI (content://temp/doc1.doc) does not indicate a video file, which is required for video editing."}}}
+{"query": "Trim content://temp/video.mp4 from 0 ms to 60000 ms.", "answer": {"plan": "ACTION_EDIT_VIDEO", "arguments": {"video_uri": "content://temp/video.mp4", "edit_options": {"start_time": 0, "end_time": 60000}}}}
+{"query": "From the selection ['content://temp/image1.jpg', 'content://temp/video1.mp4'], trim content://temp/video1.mp4 to 40000 ms duration.", "answer": {"plan": "ACTION_EDIT_VIDEO", "arguments": {"video_uri": "content://temp/video1.mp4", "edit_options": {"start_time": 0, "end_time": 40000}}}}
+{"query": "Mute the audio of content://temp/textfile.txt.", "answer": {"plan": "N/A", "arguments": {"reason": "The provided URI (content://temp/textfile.txt) does not indicate a video file, which is required for video editing."}}}
+{"query": "Show my timers.", "answer": {"plan": "ACTION_SHOW_TIMERS", "arguments": {}}}
+{"query": "Display all active timers.", "answer": {"plan": "ACTION_SHOW_TIMERS", "arguments": {}}}
+{"query": "What timers are running?", "answer": {"plan": "ACTION_SHOW_TIMERS", "arguments": {}}}
+{"query": "List the active timers.", "answer": {"plan": "ACTION_SHOW_TIMERS", "arguments": {}}}
+{"query": "Show me all current timers.", "answer": {"plan": "ACTION_SHOW_TIMERS", "arguments": {}}}
+{"query": "Display the list of timers currently running.", "answer": {"plan": "ACTION_SHOW_TIMERS", "arguments": {}}}
+{"query": "Can you show my active timers?", "answer": {"plan": "ACTION_SHOW_TIMERS", "arguments": {}}}
+{"query": "Show active timers now.", "answer": {"plan": "ACTION_SHOW_TIMERS", "arguments": {}}}
+{"query": "Display timers please.", "answer": {"plan": "ACTION_SHOW_TIMERS", "arguments": {}}}
+{"query": "Show all timers that are currently active.", "answer": {"plan": "ACTION_SHOW_TIMERS", "arguments": {}}}
+{"query": "Actually, change alarm_id: alarm_no1 to 6:15 AM.", "answer": {"plan": "ACTION_EDIT_ALARM", "arguments": {"alarm_id": "alarm_no1", "EXTRA_HOUR": 6, "EXTRA_MINUTES": 15}}}
+{"query": "Update alarm_id: alarm_no1's label to 'Team Huddle'.", "answer": {"plan": "N/A", "arguments": {"reason": "Required parameters EXTRA_HOUR and EXTRA_MINUTES (alarm time) are missing from the user query."}}}
+{"query": "Change alarm_id: alarm_no1's time to 8:45 PM.", "answer": {"plan": "ACTION_EDIT_ALARM", "arguments": {"alarm_id": "alarm_no1", "EXTRA_HOUR": 20, "EXTRA_MINUTES": 45}}}
+{"query": "Also set alarm_id: alarm_no1 to repeat on Sundays.", "answer": {"plan": "N/A", "arguments": {"reason": "Required parameters EXTRA_HOUR and EXTRA_MINUTES (alarm time) are missing from the user query."}}}
+{"query": "Turn on vibration for alarm_id: alarm_no1.", "answer": {"plan": "N/A", "arguments": {"reason": "Required parameters EXTRA_HOUR and EXTRA_MINUTES (alarm time) are missing from the user query."}}}
+{"query": "Also, include Friday in alarm_id: alarm_no1's repeat schedule.", "answer": {"plan": "N/A", "arguments": {"reason": "Required parameters EXTRA_HOUR and EXTRA_MINUTES (alarm time) are missing from the user query."}}}
+{"query": "Change alarm_id: alarm_no1's time to 5:30 AM instead.", "answer": {"plan": "ACTION_EDIT_ALARM", "arguments": {"alarm_id": "alarm_no1", "EXTRA_HOUR": 5, "EXTRA_MINUTES": 30}}}
+{"query": "Remove the custom ringtone for alarm_id: alarm_no1.", "answer": {"plan": "N/A", "arguments": {"reason": "Required parameters EXTRA_HOUR and EXTRA_MINUTES (alarm time) are missing from the user query."}}}
+{"query": "Change alarm_id: alarm_no1's time to 9:45 PM.", "answer": {"plan": "ACTION_EDIT_ALARM", "arguments": {"alarm_id": "alarm_no1", "EXTRA_HOUR": 21, "EXTRA_MINUTES": 45}}}
+{"query": "Change alarm_id: alarm_no1's label to 'Weekly Briefing'.", "answer": {"plan": "N/A", "arguments": {"reason": "Required parameters EXTRA_HOUR and EXTRA_MINUTES (alarm time) are missing from the user query."}}}
+{"query": "Navigate to 742 Evergreen Terrace.", "answer": {"plan": "ACTION_NAVIGATE_TO_LOCATION", "arguments": {"location": "742 Evergreen Terrace"}}}
+{"query": "Navigate to 99 Ocean Ave.", "answer": {"plan": "ACTION_NAVIGATE_TO_LOCATION", "arguments": {"location": "99 Ocean Ave"}}}
+{"query": "Navigate to 123 Main St.", "answer": {"plan": "ACTION_NAVIGATE_TO_LOCATION", "arguments": {"location": "123 Main St"}}}
+{"query": "Take me to 800 River Road.", "answer": {"plan": "ACTION_NAVIGATE_TO_LOCATION", "arguments": {"location": "800 River Road"}}}
+{"query": "Show me the route to 123 Palm Street.", "answer": {"plan": "ACTION_NAVIGATE_TO_LOCATION", "arguments": {"location": "123 Palm Street"}}}
+{"query": "Navigate to 200 Willow Lane.", "answer": {"plan": "ACTION_NAVIGATE_TO_LOCATION", "arguments": {"location": "200 Willow Lane"}}}
+{"query": "Navigate to 400 Maple Dr.", "answer": {"plan": "ACTION_NAVIGATE_TO_LOCATION", "arguments": {"location": "400 Maple Dr"}}}
+{"query": "Navigate to 971 King Street.", "answer": {"plan": "ACTION_NAVIGATE_TO_LOCATION", "arguments": {"location": "971 King Street"}}}
+{"query": "Navigate to 18 Lotus Lane.", "answer": {"plan": "ACTION_NAVIGATE_TO_LOCATION", "arguments": {"location": "18 Lotus Lane"}}}
+{"query": "Navigate to 221B Baker St.", "answer": {"plan": "ACTION_NAVIGATE_TO_LOCATION", "arguments": {"location": "221B Baker St"}}}
+{"query": "Can you show me my call log?", "answer": {"plan": "ACTION_VIEW_CALL_LOG", "arguments": {}}}
+{"query": "Display my recent call history.", "answer": {"plan": "ACTION_VIEW_CALL_LOG", "arguments": {}}}
+{"query": "Show my call history to confirm the call.", "answer": {"plan": "ACTION_VIEW_CALL_LOG", "arguments": {}}}
+{"query": "Let me check the call log.", "answer": {"plan": "ACTION_VIEW_CALL_LOG", "arguments": {}}}
+{"query": "View my recent calls.", "answer": {"plan": "ACTION_VIEW_CALL_LOG", "arguments": {}}}
+{"query": "Display the call log details.", "answer": {"plan": "ACTION_VIEW_CALL_LOG", "arguments": {}}}
+{"query": "Show my recent call history.", "answer": {"plan": "ACTION_VIEW_CALL_LOG", "arguments": {}}}
+{"query": "Reveal my call log.", "answer": {"plan": "ACTION_VIEW_CALL_LOG", "arguments": {}}}
+{"query": "Show me the recent call entries.", "answer": {"plan": "ACTION_VIEW_CALL_LOG", "arguments": {}}}
+{"query": "Display my call records.", "answer": {"plan": "ACTION_VIEW_CALL_LOG", "arguments": {}}}
+{"query": "Show me the event content://calender/event/1.", "answer": {"plan": "ACTION_VIEW_EVENT", "arguments": {"event_uri": "content://calender/event/1"}}}
+{"query": "I'd like to view the details of the event content://calender/event/2.", "answer": {"plan": "ACTION_VIEW_EVENT", "arguments": {"event_uri": "content://calender/event/2"}}}
+{"query": "Display the calendar entry content://calender/event/3.", "answer": {"plan": "ACTION_VIEW_EVENT", "arguments": {"event_uri": "content://calender/event/3"}}}
+{"query": "I want to view the event content://calender/event/4.", "answer": {"plan": "ACTION_VIEW_EVENT", "arguments": {"event_uri": "content://calender/event/4"}}}
+{"query": "Open the event content://calender/event/5 to check its details.", "answer": {"plan": "ACTION_VIEW_EVENT", "arguments": {"event_uri": "content://calender/event/5"}}}
+{"query": "Bring up the event content://calender/event/6 scheduled for me.", "answer": {"plan": "ACTION_VIEW_EVENT", "arguments": {"event_uri": "content://calender/event/6"}}}
+{"query": "Let me see the event details content://calender/event/7 I just booked.", "answer": {"plan": "ACTION_VIEW_EVENT", "arguments": {"event_uri": "content://calender/event/7"}}}
+{"query": "Reveal the meeting details of the event content://calender/event/8.", "answer": {"plan": "ACTION_VIEW_EVENT", "arguments": {"event_uri": "content://calender/event/8"}}}
+{"query": "Display the event content://calender/event/9.", "answer": {"plan": "ACTION_VIEW_EVENT", "arguments": {"event_uri": "content://calender/event/9"}}}
+{"query": "Show the event content://calender/event/10, please.", "answer": {"plan": "ACTION_VIEW_EVENT", "arguments": {"event_uri": "content://calender/event/10"}}}
+{"query": "Show sent emails", "answer": {"plan": "ACTION_VIEW_SENT_EMAILS", "arguments": {}}}
+{"query": "Display sent emails folder", "answer": {"plan": "ACTION_VIEW_SENT_EMAILS", "arguments": {}}}
+{"query": "List sent emails", "answer": {"plan": "ACTION_VIEW_SENT_EMAILS", "arguments": {}}}
+{"query": "Show sent emails log", "answer": {"plan": "ACTION_VIEW_SENT_EMAILS", "arguments": {}}}
+{"query": "View sent emails", "answer": {"plan": "ACTION_VIEW_SENT_EMAILS", "arguments": {}}}
+{"query": "Display sent emails", "answer": {"plan": "ACTION_VIEW_SENT_EMAILS", "arguments": {}}}
+{"query": "Show my sent emails", "answer": {"plan": "ACTION_VIEW_SENT_EMAILS", "arguments": {}}}
+{"query": "Display the sent emails folder", "answer": {"plan": "ACTION_VIEW_SENT_EMAILS", "arguments": {}}}
+{"query": "Can you let me see the emails I sent out?", "answer": {"plan": "ACTION_VIEW_SENT_EMAILS", "arguments": {}}}
+{"query": "I want to view my recently sent emails", "answer": {"plan": "ACTION_VIEW_SENT_EMAILS", "arguments": {}}}
+{"query": "Show me a list of my sent messages.", "answer": {"plan": "ACTION_VIEW_SENT_MESSAGES", "arguments": {}}}
+{"query": "Display my recently sent texts.", "answer": {"plan": "ACTION_VIEW_SENT_MESSAGES", "arguments": {}}}
+{"query": "Can you list my sent messages?", "answer": {"plan": "ACTION_VIEW_SENT_MESSAGES", "arguments": {}}}
+{"query": "Let me see all the messages I've sent.", "answer": {"plan": "ACTION_VIEW_SENT_MESSAGES", "arguments": {}}}
+{"query": "Please list out all my sent texts.", "answer": {"plan": "ACTION_VIEW_SENT_MESSAGES", "arguments": {}}}
+{"query": "Open the sent messages view.", "answer": {"plan": "ACTION_VIEW_SENT_MESSAGES", "arguments": {}}}
+{"query": "Display the log of sent messages.", "answer": {"plan": "ACTION_VIEW_SENT_MESSAGES", "arguments": {}}}
+{"query": "Bring up my sent texts.", "answer": {"plan": "ACTION_VIEW_SENT_MESSAGES", "arguments": {}}}
+{"query": "List all the messages I have sent.", "answer": {"plan": "ACTION_VIEW_SENT_MESSAGES", "arguments": {}}}
+{"query": "Display all the messages I've sent.", "answer": {"plan": "ACTION_VIEW_SENT_MESSAGES", "arguments": {}}}
+{"query": "View web browsing history.", "answer": {"plan": "ACTION_VIEW_WEB_HISTORY", "arguments": {}}}
+{"query": "View web browsing history of medical articles", "answer": {"plan": "ACTION_VIEW_WEB_HISTORY", "arguments": {}}}
+{"query": "View web browsing history of baking search", "answer": {"plan": "ACTION_VIEW_WEB_HISTORY", "arguments": {}}}
+{"query": "View web browsing history of space news", "answer": {"plan": "ACTION_VIEW_WEB_HISTORY", "arguments": {}}}
+{"query": "View web browsing history on Microsoft information", "answer": {"plan": "ACTION_VIEW_WEB_HISTORY", "arguments": {}}}
+{"query": "View web browsing history of flight tracking", "answer": {"plan": "ACTION_VIEW_WEB_HISTORY", "arguments": {}}}
+{"query": "View web browsing history of Korean dramas and Netflix searches", "answer": {"plan": "ACTION_VIEW_WEB_HISTORY", "arguments": {}}}
+{"query": "View web browsing history of language learning", "answer": {"plan": "ACTION_VIEW_WEB_HISTORY", "arguments": {}}}
+{"query": "View web browsing history of nutritional information research", "answer": {"plan": "ACTION_VIEW_WEB_HISTORY", "arguments": {}}}
+{"query": "View web browsing history of movie research", "answer": {"plan": "ACTION_VIEW_WEB_HISTORY", "arguments": {}}}
+{"query": "View playlist 'Current Playlist'", "answer": {"plan": "ACTION_VIEW_PLAYLIST", "arguments": {"playlist_name": "Current Playlist"}}}
+{"query": "View playlist 'default'", "answer": {"plan": "ACTION_VIEW_PLAYLIST", "arguments": {"playlist_name": "default"}}}
+{"query": "View playlist 'current'", "answer": {"plan": "ACTION_VIEW_PLAYLIST", "arguments": {"playlist_name": "current"}}}
+{"query": "View playlist 'Apple Music'", "answer": {"plan": "ACTION_VIEW_PLAYLIST", "arguments": {"playlist_name": "Apple Music"}}}
+{"query": "View playlist 'YouTube Music'", "answer": {"plan": "ACTION_VIEW_PLAYLIST", "arguments": {"playlist_name": "YouTube Music"}}}
+{"query": "View playlist 'Spotify'", "answer": {"plan": "ACTION_VIEW_PLAYLIST", "arguments": {"playlist_name": "Spotify"}}}
+{"query": "View playlist 'Deezer'", "answer": {"plan": "ACTION_VIEW_PLAYLIST", "arguments": {"playlist_name": "Deezer"}}}
+{"query": "View playlist 'default playlist'", "answer": {"plan": "ACTION_VIEW_PLAYLIST", "arguments": {"playlist_name": "default playlist"}}}
+{"query": "What songs are in my current playlist?", "answer": {"plan": "ACTION_VIEW_PLAYLIST", "arguments": {"playlist_name": "current playlist"}}}
+{"query": "Show me the playlist songs.", "answer": {"plan": "N/A", "arguments": {"reason": "No specific playlist name provided in the query."}}}
+{"query": "What apps have I used recently?", "answer": {"plan": "ACTION_VIEW_RECENT_APPS", "arguments": {}}}
+{"query": "Could you list my recently used applications?", "answer": {"plan": "ACTION_VIEW_RECENT_APPS", "arguments": {}}}
+{"query": "Show me the apps I've opened most recently.", "answer": {"plan": "ACTION_VIEW_RECENT_APPS", "arguments": {}}}
+{"query": "Can you display my list of recent apps?", "answer": {"plan": "ACTION_VIEW_RECENT_APPS", "arguments": {}}}
+{"query": "Please show me the apps I've recently used.", "answer": {"plan": "ACTION_VIEW_RECENT_APPS", "arguments": {}}}
+{"query": "What are the apps that were used recently?", "answer": {"plan": "ACTION_VIEW_RECENT_APPS", "arguments": {}}}
+{"query": "I would like to see my recent application history.", "answer": {"plan": "ACTION_VIEW_RECENT_APPS", "arguments": {}}}
+{"query": "Can you show me the list of apps I've been using lately?", "answer": {"plan": "ACTION_VIEW_RECENT_APPS", "arguments": {}}}
+{"query": "Display the apps that have been recently active, please.", "answer": {"plan": "ACTION_VIEW_RECENT_APPS", "arguments": {}}}
+{"query": "What are my most recent apps?", "answer": {"plan": "ACTION_VIEW_RECENT_APPS", "arguments": {}}}

@@ -1,0 +1,10 @@
+model	turn	coref_turn1	coref_turn2	coref_turn3	coref_turn4
+o4-mini	Turn3	58.63	59.89		
+o4-mini	Turn4	59.88	61.53	62.6	
+o4-mini	Turn5	66.85	64.47	65.21	67.32
+gemini-2.0-flash	Turn3	56.62	60.59		
+gemini-2.0-flash	Turn4	53.4	58.96	62.33	
+gemini-2.0-flash	Turn5	63.28	63.61	62.26	69.54
+llama3-sft	Turn3	52.33	56.24		
+llama3-sft	Turn4	51.67	58.2	64.1	
+llama3-sft	Turn5	62.77	63.05	65	66.69
